@@ -12,3 +12,8 @@ ghost@ghost# pkg install zsh <br>
 ghost@ghost# chsh -s /usr/local/bin/zsh   or <br>
 ghost@ghost# chsh zsh  <br>
 após alterar com chsh, reinicie seu sistema
+
+## tip 3: install apache2
+ghost@ghost#  pkg install apache24-2.4.62  <br>
+ghost@ghost#  vim /usr/local/www/apache24/data/index.html   <- index <br>
+![screenshot](screenshot.png)
