@@ -16,10 +16,11 @@ após alterar com chsh, reinicie seu sistema
 ## tip 3: install apache2
 ghost@ghost#  pkg install apache24-2.4.62  <br>
 ghost@ghost#  vim /usr/local/www/apache24/data/index.html   <- index <br>
-ghost@ghost#  vim /usr/local/etc/apache24/httpd.conf        <- config file <br>
+ghost@ghost#  vim /usr/local/etc/apache24/httpd.conf        <- config file <br> <br>
 ![screenshot](screenshot.png)
 
 ghost@ghost#  vim /etc/rc.conf       <- add config file !important <br>
-in end file, add apache24_enable
+in end file, add <br>
+apache24_enable="YES"
 ![screenshot](screenshotone.png)
 
