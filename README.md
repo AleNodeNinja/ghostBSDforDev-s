@@ -26,7 +26,7 @@ apache24_enable="YES"
 <br>
 ghost@ghost# service apache24 restart
 
-#removing index of error apache2
+<h1>removing index of error apache2 <h1> ><br>
 ghost@ghost#  vim /usr/local/etc/apache24/httpd.conf   <br>
 <br> in this module, remove "Indexes" options <br>
 ghost@ghost# service apache24 restart <br>
