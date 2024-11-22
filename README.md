@@ -1,8 +1,11 @@
 # ghostBSDforDev-s
-tip's dev in ghost bsd
+tip's dev in ghost bsd.
+
+## step one
+with root, <br>
+ghost@ghost# pkg upgrade <br>
 
 ## tip 1: install gcc and g++
-with root, <br>
 ghost@ghost# pkg install -g 'GhostBSD*-dev' <br>
 ghost@ghost# pkg install gcc
 
@@ -32,3 +35,8 @@ ghost@ghost#  vim /usr/local/etc/apache24/httpd.conf   <br>
 
 ![screenshot](screenshotwo.png)
 <br>ghost@ghost# service apache24 restart <br>
+
+
+## tip 5: install php 8.3 
+ghost@ghost# pkg install php83 <br>
+ghost@ghost# php -v
