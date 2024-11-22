@@ -31,5 +31,5 @@ ghost@ghost#  vim /usr/local/etc/apache24/httpd.conf   <br>
 <br> in this module, remove "Indexes" options <br>
 ghost@ghost# service apache24 restart <br>
 
-![screenshot](screenshotone.png)
+![screenshot](screenshotwo.png)
 
