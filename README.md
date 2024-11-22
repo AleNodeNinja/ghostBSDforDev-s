@@ -23,4 +23,6 @@ ghost@ghost#  vim /etc/rc.conf       <- add config file !important <br>
 in end file, add <br>
 apache24_enable="YES"
 ![screenshot](screenshotone.png)
+<br>
+ghost@ghost# service apache24 restart
 
